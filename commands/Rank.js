@@ -154,19 +154,19 @@ france( {
     
     
          let msg = `
-┏━━━┛ FLASH-MD Ranking┗━━━┓
+*∞┇━━━ •🏮• ━━━┇∞*
          
-    *Name :* @${auteurMsgRepondu.split("@")[0]}
+    *الاسم :* @${auteurMsgRepondu.split("@")[0]}
     
-    *Level :* ${data.level}
+    *المستوى :* ${data.level}
     
-    *EXP :* ${data.exp}/${data.xplimit}
+    *اكس بي :* ${data.exp}/${data.xplimit}
     
-    *Role :* ${role}
+    *الرول :* ${role}
 
-    *Messages :* ${rank.messages}
+    *عدد الرسائل:* ${rank.messages}
     
-   ┕━✿━┑  ┍━✿━┙`
+   *∞┇━━━ •🏮• ━━━┇∞*`
     
      zk.sendMessage( 
         dest,
